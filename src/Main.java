@@ -10,10 +10,10 @@ public class Main {
         titular2.nome = "Maria Lina";
         titular2.documento = "5555555";
 
-        Conta minhaConta = new Conta();
-        minhaConta.titular = titular1;
-        minhaConta.agencia = 123;
-        minhaConta.numero = 999;
+        Conta minhaConta = new Conta(titular1, 123, 999);
+//        minhaConta.titular = titular1;
+//        minhaConta.agencia = 123;
+//        minhaConta.numero = 999;
 //        minhaConta.saldo = 15_000;
         minhaConta.depositar(15_000);
         minhaConta.sacar(1_000, 10);

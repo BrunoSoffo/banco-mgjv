@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb03f0e-10c7-4b4f-a34b-53b90a57b5ab" name="Changes" comment="Criando método depositar">
+    <list default="true" id="8bb03f0e-10c7-4b4f-a34b-53b90a57b5ab" name="Changes" comment="Criando método sacar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -84,13 +84,22 @@
       <option name="project" value="LOCAL" />
       <updated>1692154219096</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Criando método sacar">
+      <option name="closed" value="true" />
+      <created>1692161917768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692161917768</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criando classes" />
     <MESSAGE value="Instânciando classe (criando obj.)" />
     <MESSAGE value="Criando método depositar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando método depositar" />
+    <MESSAGE value="Criando método sacar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando método sacar" />
   </component>
 </project>
