@@ -14,13 +14,15 @@ public class Main {
         minhaConta.titular = titular1;
         minhaConta.agencia = 123;
         minhaConta.numero = 999;
-        minhaConta.saldo = 15_000;
+//        minhaConta.saldo = 15_000;
+//        minhaConta.depositar( valor: 15_000);
 
         Conta suaConta = new Conta();
         suaConta.titular = titular2;
         suaConta.agencia = 222;
         suaConta.numero = 111;
-        suaConta.saldo = 25_000;
+//        suaConta.saldo = 25_000;
+//        suaConta.depositar( valor: 25_000);
 
         System.out.println("Titular: " + minhaConta.titular.nome);
         System.out.println("Saldo: " + minhaConta.saldo);
