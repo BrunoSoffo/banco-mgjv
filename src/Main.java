@@ -11,18 +11,10 @@ public class Main {
         titular2.setDocumento("5555555");
 
         Conta minhaConta = new Conta(titular1, 123, 999);
-//        minhaConta.titular = titular1;
-//        minhaConta.agencia = 123;
-//        minhaConta.numero = 999;
-//        minhaConta.saldo = 15_000;
         minhaConta.depositar(15_000);
         minhaConta.sacar(1_000, 10);
 
-        Conta suaConta = new Conta();
-        suaConta.setTitular(titular2);
-        suaConta.setAgencia(222);
-        suaConta.setNumero(111);
-//        suaConta.saldo = 25_000;
+        Conta suaConta = new Conta(titular2, 222, 111);
         suaConta.depositar( 25_000);
 
         System.out.println("Titular: " + minhaConta.getTitular().getNome());

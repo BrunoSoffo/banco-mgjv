@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bb03f0e-10c7-4b4f-a34b-53b90a57b5ab" name="Changes" comment="Criando construtores">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8bb03f0e-10c7-4b4f-a34b-53b90a57b5ab" name="Changes" comment="Encapsulando variáveis de instância">
       <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692162507943</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Encapsulando variáveis de instância">
+      <option name="closed" value="true" />
+      <created>1692327114797</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692327114797</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -110,6 +116,7 @@
     <MESSAGE value="Criando método depositar" />
     <MESSAGE value="Criando método sacar" />
     <MESSAGE value="Criando construtores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criando construtores" />
+    <MESSAGE value="Encapsulando variáveis de instância" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulando variáveis de instância" />
   </component>
 </project>
