@@ -1,3 +1,5 @@
+package com.brunosoffo.banco.modelo;
+
 public class Pessoa {
 
     private String nome;

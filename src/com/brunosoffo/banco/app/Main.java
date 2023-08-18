@@ -1,3 +1,8 @@
+package com.brunosoffo.banco.app;
+
+import com.brunosoffo.banco.modelo.Conta;
+import com.brunosoffo.banco.modelo.Pessoa;
+
 public class Main {
 
     public static void main(String[] args) {

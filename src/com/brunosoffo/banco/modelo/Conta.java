@@ -1,3 +1,5 @@
+package com.brunosoffo.banco.modelo;
+
 import java.util.Objects;
 
 public class Conta {
@@ -9,7 +11,7 @@ public class Conta {
     private double saldo;
 
     //construtor
-    Conta(Pessoa titular, int agencia, int numero){
+    public Conta(Pessoa titular, int agencia, int numero){
         Objects.requireNonNull(titular); //exige q o parâmetro titular n seja nulo
 
 //        associando os parâmetros do construtor
@@ -22,14 +24,14 @@ public class Conta {
 //        Isso é conhecido como sobrecarga de construtores
     }
 
-    void depositar(double valor) {
+    public void depositar(double valor) {
         if (valor <= 0) {
             throw new IllegalArgumentException("O valor deve ser maior que 0");
         }
         saldo = saldo + valor;
     }
 
-    void sacar(double valor) {
+    public void sacar(double valor) {
         if (valor <= 0) {
             throw new IllegalArgumentException("O valor deve ser maior que 0");
         }
@@ -41,7 +43,7 @@ public class Conta {
     }
 
     //Sobrecarga (Overloading) do método sacar
-    void sacar(double valor, double taxaSaque){
+    public void sacar(double valor, double taxaSaque){
         sacar(valor + taxaSaque);
     }
 
